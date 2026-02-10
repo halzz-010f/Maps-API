@@ -9,7 +9,7 @@ from io import BytesIO
 class FirstTask(QMainWindow):
     def __init__(self):
         super(FirstTask, self).__init__()
-        uic.loadUi('task1_map.ui', self)
+        uic.loadUi('ui/task1_map.ui', self)
         self.update_button.clicked.connect(self.on_update_clicked)
 
     def on_update_clicked(self):
